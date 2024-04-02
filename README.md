@@ -1,2 +1,3 @@
-# emlak_fiyat_tahmin
-Dairelerin oda sayısına, alanına, bina yaşına göre verilerden aldığı bilgilere göre yeni girilenlere fiyat belirleme
+# Lineer Regresyon Modeli
+## Emlak Fiyat Tahmini
+Evlerin alanı, oda sayısı ve bina yaşı gibi özelliklerine dayanarak tahmini fiyatını hesaplamak için bir lineer regresyon modelini kullanır. Pandas kütüphanesi aracılığıyla bir CSV dosyasından ev veri seti yüklenir ve sklearn kütüphanesinden bir lineer regresyon modeli oluşturulur. Kullanıcıdan, tahmin yapılacak evin özellikleri alınır ve eğitilmiş model kullanılarak evin tahmini fiyatı hesaplanır. Son olarak, hesaplanan tahmini fiyat konsola yazdırılır. Bu kod, belirli özelliklere sahip bir evin tahmini fiyatını hızlı bir şekilde hesaplamak için kullanılabilir.
